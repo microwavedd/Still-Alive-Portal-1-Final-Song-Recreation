@@ -2,6 +2,9 @@
 
 This Python project aims to recreate the iconic final song "Still Alive" from the game Portal 1 as faithfully as possible. By utilizing Python's libraries and tools, we'll generate a rendition of the song that captures its essence and charm.
 
+![Still Alive Portal](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fportal-still-alive-pc&psig=AOvVaw0oJxZxutI7UQaUCdsL7Fox&ust=1707684177219000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCICLy7fRoYQDFQAAAAAdAAAAABAm)
+
+
 ## Requirements:
 - Python 3.x
 - Libraries: `pygame`, `time`,`sys`,`os`,`subprocess`
