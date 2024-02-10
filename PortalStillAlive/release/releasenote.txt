@@ -1,9 +1,0 @@
-Aight, so quick recap of everything in this repo.
-
-Folders:
-main - Where the backbone and most scripts reside.
-release - where this text file is (hi!) and where the final file, that you must drop into cmd resides.
-result - an html file where I made a eeny weeny website that redirects you to the video uploaded with release, that showcases how the project should work.
-
-Files:
-asiis.py - Where every ascii art is stored in a function, stored in a function to not have to import every one manually. EFFICIENCE IS KEY.
