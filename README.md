@@ -56,7 +56,7 @@ Contributions to improve the accuracy or add features to the song recreation are
 - **That one Red Bull I took at 3AM yesterday** - Contributors
 
 ## License:
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
 
 ## Disclaimer:
 This project is an educational and recreational endeavor, aiming to pay tribute to the original song from Portal 1. It is not affiliated with or endorsed by Valve Corporation. All rights to the song and its associated intellectual property belong to Valve Corporation.
