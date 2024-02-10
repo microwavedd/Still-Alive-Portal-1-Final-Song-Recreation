@@ -2,12 +2,14 @@
 
 This Python project aims to recreate the iconic final song "Still Alive" from the game Portal 1 as faithfully as possible. By utilizing Python's libraries and tools, we'll generate a rendition of the song that captures its essence and charm.
 
-![Still Alive Portal](https://www.google.com/url?sa=i&url=https%3A%2F%2Fknowyourmeme.com%2Fmemes%2Fstill-alive-portal-end-theme&psig=AOvVaw0oJxZxutI7UQaUCdsL7Fox&ust=1707684177219000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCICLy7fRoYQDFQAAAAAdAAAAABA6)
+![3ba2523b7e2781fb751a6a9d79af6ebd](https://github.com/microwavedd/Portal---Still-Alive-in-terminal./assets/143319861/a400d413-ea41-46ed-9a9b-27c0306437b3)
+
 
 
 ## Requirements:
 - Python 3.x
 - Libraries: `pygame`, `time`,`sys`,`os`,`subprocess`
+
 - A working computer
 
 ## Installation:
