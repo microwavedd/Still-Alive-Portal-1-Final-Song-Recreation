@@ -6,4 +6,4 @@ release - where this text file is (hi!) and where the final file, that you must 
 result - an html file where I made a eeny weeny website that redirects you to the video uploaded with release, that showcases how the project should work.
 
 Files:
-asiis.py - Where every ascii art is stored in a function, stored in a function to not have to import every one manually. EFFICIENCE IS KEY.
+asiis.py - Where every ascii art is stored in a function, stored in a function to not have to import every one manually. EFFICIENCE IS KEY. Also, calling the function directly from the print function and not storing it in a list is pretty neat.
