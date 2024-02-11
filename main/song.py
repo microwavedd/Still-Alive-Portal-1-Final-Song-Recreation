@@ -1,17 +1,18 @@
+import numpy as np
 def salyr(position:int):
     #List with all the lyrics to refer to crtain part with indentation. Its purpose is to join itself to the typeeffect function.
     #Props to Ellen McLain, great performance.
-    lyr = [
-        "This was a triumph",
-        "I'm making a note here: huge success",
-        "It's hard to overstate my satisfaction",
-        "Aperture Science",
+    lyr = np.array([
+        "This was a triumph.",
+        "I'm making a note here:", "HUGE SUCCESS.",
+        "It's hard to overstate", "my satisfaction.",
+        "Aperture Science.",
         "We do what we must",
-        "because we can",
-        "For the good of all of us",
-        "Except the ones who are dead",
+        "because we can.",
+        "For the good of all of us.",
+        "Except the ones who are dead.",
         "But there's no sense crying",
-        "over every mistake",
+        "over every mistake.",
         "You just keep on trying",
         "'til you run out of cake",
         "And the science gets done",
@@ -54,5 +55,5 @@ def salyr(position:int):
         "And when you're dead, I will be still alive",
         "Still alive",
         "Still alive"
-    ]
-    return lyr[position]
+    ])
+    return f"{lyr[position]}\n"

@@ -1,3 +1,6 @@
+import numpy as np
+#Lists are pretty slow
+
 #Cool ass ascii art, really cool.
 def thecakeisreal():
     print("""
@@ -240,12 +243,12 @@ def SAdOS():
                ,=/:, .+X@MMH@#H  #####$=
 """, end="")
     return ""
+
 #So, why the end="" and return ""? You see, the function already prints something, so printing a function that already prints something, prints what it returns,
 #and as it doesn't return anything, it return "None". With end="" and "", i can make it do that t does not return anything at all. :)
+#Edit; Already fixed it by calling the item from the list, kinda lazy to delete the end="" and return "" things though
 
 def sascii(asciis: int):
-    lisa = [thecakeisreal, SAdOS, dafukisthis, kaboom, prettygood, fuoco, ohno, atom, trefoil, aperture]
-    print(lisa[asciis]())
-
-#By the way, to avoid errors, the function is referred to in the print, else, somehow, it prints out every single ascii art there is.
+    lisa = np.array([thecakeisreal, SAdOS, dafukisthis, kaboom, prettygood, fuoco, ohno, atom, trefoil, aperture])
+    lisa[asciis]()
 
