@@ -1,0 +1,55 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: blue; /* Cambiar el color de texto a azul */
+    background-color: black; /* Cambiar el color de fondo a negro */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: orange; 
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#Title {
+    color: #fafafa;
+}
+
+#Explication {
+    color: #1291b8;
+}
+
+#Hyperlink {
+    color: #ff5733;
+}
+
+#Hyperlink:hover {
+    color: #ff2600;
+}
