@@ -40,8 +40,9 @@ This Python project aims to recreate the iconic final song "Still Alive" from th
     ```
     python still_alive.py
     ```
+4. If somehow, it doesn't work, edit the stillalive.py file to match the directory where the songpace.py and asciispace.py files are!
 
-4. Sit back, relax, and enjoy the musical experience as the program recreates "Still Alive" for you!
+5. Sit back, relax, and enjoy the musical experience as the program recreates "Still Alive" for you!
 
 ## Contributing:
 Contributions to improve the accuracy or add features to the song recreation are welcome! If you'd like to contribute, please follow these steps:
