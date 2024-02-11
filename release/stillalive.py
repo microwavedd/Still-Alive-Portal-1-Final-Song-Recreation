@@ -3,8 +3,8 @@ import subprocess
 def execute():
     # You need to substitute the path to wherever the files "songpace.py" and "asciis.py" are in your machine.
     # More detailed tutorial in the github
-    c1 = "python C:/Users/Ingo/Desktop/PortalStillAlive/main/test1.py"  # Reemplaza "script1.py" con el nombre de tu primer script
-    c2 = "python C:/Users/Ingo/Desktop/PortalStillAlive/main/test2.py"  # Reemplaza "script2.py" con el nombre de tu segundo script
+    c1 = "python C:/Users/Ingo/Desktop/PortalStillAlive/main/songpace.py"  # Reemplaza "script1.py" con el nombre de tu primer script
+    c2 = "python C:/Users/Ingo/Desktop/PortalStillAlive/main/asciispace.py"  # Reemplaza "script2.py" con el nombre de tu segundo script
     p1 = subprocess.Popen(c1, creationflags=subprocess.CREATE_NEW_CONSOLE)
     p2 = subprocess.Popen(c2, creationflags=subprocess.CREATE_NEW_CONSOLE)
 
@@ -13,4 +13,3 @@ def execute():
 
 #Pop goes the weasel
 execute()
-#TODO Encontrar la forma de hacer que el texto desaparezca para dejar paso a otro (por fidelidad al video original)

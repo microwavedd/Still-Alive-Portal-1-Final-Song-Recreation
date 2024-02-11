@@ -1,9 +1,27 @@
 Aight, so quick recap of everything in this repo.
 
-Folders:
+[Folders]:
 main - Where the backbone and most scripts reside.
 release - where this text file is (hi!) and where the final file, that you must drop into cmd resides.
 result - an html file where I made a eeny weeny website that redirects you to the video uploaded with release, that showcases how the project should work.
 
-Files:
-asiis.py - Where every ascii art is stored in a function, stored in a function to not have to import every one manually. EFFICIENCE IS KEY. Also, calling the function directly from the print function and not storing it in a list is pretty neat.
+[Files]:
+asiis.py - Where every ascii art is stored in a function, stored in a function to not have to import every one manually. EFFICIENCE IS KEY.
+asciispace.py - Where every ascii is told to appear on screen for a certain time, on a certain moment.
+broom.py - Function that erases everything written in the terminal 'til then.
+song.py - A function containing a list with every single line of the "Still alive" song.
+songpace.py - The file that controls when and for how much time every line is displayed in the terminal.
+StillAlive.mp3 - The Song™ 
+typewriter.py - Function that controls the display of strings, making the style of these seem as if someone were writing them while you watch.
+wheatleycrab.png - hehehehehehe
+sneekypeeky.lua - A sneak peek of future updates of this repo.
+
+stillalive.py - The executer of the project. Dragging it to the terminal ignites the song.
+
+portalstyle.css - Styling for the HTML spam file.
+releaseresult.htm - File to show some info about the project and its future, apart from a link to the YT video where the project is shown working.
+
+[Credits]:
+Microwavedd - Absolutely fucking everything
+Valve - Making such a great game
+You - Reading this I'm writing right now
