@@ -8,7 +8,7 @@ This Python project aims to recreate the iconic final song "Still Alive" from th
 
 ## Requirements:
 - Python 3.x
-- Libraries: `pygame`, `time`,`sys`,`os`,`subprocess`
+- Libraries: `pygame`, `time`,`sys`,`os`,`subprocess`,`numpy`
 
 - A working computer
 
@@ -22,6 +22,7 @@ This Python project aims to recreate the iconic final song "Still Alive" from th
     pip install sys
     pip install os
     pip install subprocess
+    pip install numpy
     ```
 
 ## Usage:
