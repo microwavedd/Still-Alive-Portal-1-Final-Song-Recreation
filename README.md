@@ -56,6 +56,7 @@ Contributions to improve the accuracy or add features to the song recreation are
 ## Credits:
 - **Microwavedd** - Project Lead
 - **That one Red Bull I took at 3AM yesterday** - Contributors
+- **Nicolayuwu** - Moral Support
 
 ## License:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
