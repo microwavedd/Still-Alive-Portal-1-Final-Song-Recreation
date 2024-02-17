@@ -5,30 +5,30 @@
 from typewriter import typeffect
 from song import salyr  #Salir means "to get out" in spanish, making reference to you escape in portal, hehehehehehe
 from broom import sweep  
-import sys
 import time
 
 #What this does is disable the obnoxious message of "Hello from the Pygame co-" HALT DEIN MUND, DU KLEINER HAUFEN PFERDESCHEISSE
 from os import environ
 environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 
-import pygame 
 from pygame import mixer 
 # it is important to import pygame after that
 #By the way, pygame is the way of making the music work
 
-
-#TODO hacer todo el pace de la cancion, siendo fiel el video original
-
+#Variables to make the ascii change
+h=0
+b=0
 #The music engine
 mixer.init()
 mixer.music.load('C:/Users/Ingo/Desktop/PortalStillAlive/main/StillAlive.mp3')
-
+sweep()
 #The core of the project: The lyrics
 typeffect("Forms FORM-29827281-12:\n",0.09)
 typeffect("Test Assesment Report\n\n\n",0.09)
 time.sleep(3)
+#Pop goes the weasel
 mixer.music.play()
+
 typeffect(salyr(0),0.09)
 time.sleep(2)
 typeffect(salyr(1),0.09)
@@ -46,6 +46,127 @@ time.sleep(1.6)
 typeffect(salyr(8),0.11)
 typeffect(salyr(9),0.08)
 print("\n")
-time.sleep(0.5)
-time.sleep(5)
+time.sleep(0.4)
+typeffect(salyr(10),0.08)
+typeffect(salyr(11),0.08)
+typeffect(salyr(12),0.08)
+typeffect(salyr(13),0.07)
+time.sleep(0.25)
+typeffect(salyr(14),0.07)
+typeffect(salyr(15),0.072)
+time.sleep(0.15)
+typeffect(salyr(16),0.057)
+typeffect(salyr(17),0.15)
+time.sleep(2.2)
+sweep()
+typeffect("Forms FORM-55551-5:",0.02) #Not sung so fuck it i'm adding them manually
+print("\n")
+typeffect("Personel file addendun:",0.03)
+time.sleep(0.4)
+print("\n")
+typeffect("Dear <<Subject name here>>,",0.07)
+print("\n")
+time.sleep(0.2)
+typeffect(salyr(18),0.08)
+time.sleep(2.7)
+typeffect(salyr(19),0.09)
+time.sleep(2)
+h = 1
+typeffect(salyr(20),0.1)
+time.sleep(0.1)
+typeffect(salyr(21),0.09)
+time.sleep(2.3)
+h = 0
+b = 1
+typeffect(salyr(22),0.06)
+time.sleep(2.3)
+typeffect(salyr(23),0.065)
+time.sleep(0.3)
+b = 0
+f = 1
+typeffect(salyr(24),0.15)
+time.sleep(2)
+typeffect(salyr(25),0.09)
+time.sleep(0.1)
+typeffect(salyr(26),0.07)
+time.sleep(0.8)
+typeffect(salyr(27),0.07)
+time.sleep(0.1)
+typeffect(salyr(28),0.073)
+time.sleep(0.2)
+typeffect(salyr(29),0.075)
+time.sleep(0.15)
+typeffect(salyr(30),0.075)
+time.sleep(0.08)
+typeffect(salyr(31),0.08)
+time.sleep(0.1)
+typeffect(salyr(32),0.067)
+time.sleep(0.1)
+typeffect(salyr(33),0.065)
+typeffect(salyr(34),0.09)
+time.sleep(2)
+sweep()
+typeffect("Forms FORM-55551-6:\n",0.05)
+typeffect("Personal File Addendun Addendun:",0.066) #lmao
+print("\n")
+typeffect("One last thing:", 0.1)
+print("\n")
+time.sleep(0.1)
+typeffect(salyr(35),0.08)
+time.sleep(1.8)
+typeffect(salyr(36),0.11)
+time.sleep(1.8)
+typeffect(salyr(37),0.1)
+typeffect(salyr(38),0.1)
+time.sleep(2.2)
+typeffect(salyr(39),0.1)
+time.sleep(2.1)
+typeffect(salyr(40),0.11)
+time.sleep(1.55)
+typeffect(salyr(41),0.1)
+time.sleep(0.1)
+typeffect(salyr(42),0.07)
+time.sleep(0.3)
+typeffect(salyr(43),0.08)
+typeffect(salyr(44),0.07)
+time.sleep(0.25)
+typeffect(salyr(45),0.08)
+typeffect(salyr(46),0.067)
+time.sleep(0.2)
+typeffect(salyr(47),0.08)
+time.sleep(0.1)
+typeffect(salyr(48),0.07)
+typeffect(salyr(49),0.07)
+time.sleep(0.1)
+typeffect(salyr(50),0.09)
+time.sleep(0.4)
+sweep()
+typeffect(salyr(51),0.083)
+typeffect(salyr(52),0.09)
+time.sleep(0.7)
+print("\n")
+typeffect(salyr(53),0.07)
+typeffect(salyr(54),0.09)
+time.sleep(0.7)
+print("\n")
+typeffect(salyr(55),0.07)
+typeffect(salyr(56),0.09)
+time.sleep(0.7)
+print("\n")
+typeffect(salyr(57),0.05)
+typeffect(salyr(58),0.09)
+time.sleep(0.65)
+print("\n")
+typeffect(salyr(59),0.04)
+typeffect(salyr(60),0.09)
+print("\n")
+time.sleep(0.53)
+typeffect(salyr(61),0.08)
+time.sleep(1.27)
+sweep()
+typeffect(salyr(62),0.08)
+time.sleep(1)
+sweep()
 
+
+#Microwavedd (fuckin cool ass name tbh like imagine someone that has been on a microwave like damn thats nice)
