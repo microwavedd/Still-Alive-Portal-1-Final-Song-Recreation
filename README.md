@@ -36,13 +36,14 @@ This Python project aims to recreate the iconic final song "Still Alive" from th
     cd still-alive-portal1
     ```
 3. Inside the "stillalive.py" file, change the values of the c1 and c2 variables such that the directory they point to is the same one as the one your files are in!
+Same thing for the StillAlive.mp3 file.
    
-4. Run the Python script: (Preferably by dragging it to your terminal)
+5. Run the Python script: (Preferably by dragging it to your terminal)
     ```
     python still_alive.py
     ```
 
-5. Sit back, relax, and enjoy the musical experience as the program recreates "Still Alive" for you!
+6. Sit back, relax, and enjoy the musical experience as the program recreates "Still Alive" for you!
 
 ## Contributing:
 Contributions to improve the accuracy or add features to the song recreation are welcome! If you'd like to contribute, please follow these steps:
