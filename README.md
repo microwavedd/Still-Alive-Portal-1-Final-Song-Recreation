@@ -1,4 +1,4 @@
-# Still Alive - Portal 1 Final Song Recreation (Work in Progress)
+# Still Alive - Portal 1 Final Song Recreation
 
 This Python project aims to recreate the iconic final song "Still Alive" from the game Portal 1 as faithfully as possible. By utilizing Python's libraries and tools, we'll generate a rendition of the song that captures its essence and charm.
 
