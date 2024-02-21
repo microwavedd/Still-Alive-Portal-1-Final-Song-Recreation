@@ -15,12 +15,10 @@ from pygame import mixer
 # it is important to import pygame after that
 #By the way, pygame is the way of making the music work
 
-#Variables to make the ascii change
-h=0
-b=0
+
 #The music engine
 mixer.init()
-mixer.music.load('C:/Users/Ingo/Desktop/PortalStillAlive/main/StillAlive.mp3')
+mixer.music.load('StillAlive.mp3')
 sweep()
 #The core of the project: The lyrics
 typeffect("Forms FORM-29827281-12:\n",0.09)
@@ -71,19 +69,14 @@ typeffect(salyr(18),0.08)
 time.sleep(2.7)
 typeffect(salyr(19),0.09)
 time.sleep(2)
-h = 1
 typeffect(salyr(20),0.1)
 time.sleep(0.1)
 typeffect(salyr(21),0.09)
 time.sleep(2.3)
-h = 0
-b = 1
 typeffect(salyr(22),0.06)
 time.sleep(2.3)
 typeffect(salyr(23),0.065)
 time.sleep(0.3)
-b = 0
-f = 1
 typeffect(salyr(24),0.15)
 time.sleep(2)
 typeffect(salyr(25),0.09)
@@ -162,7 +155,7 @@ typeffect(salyr(60),0.09)
 print("\n")
 time.sleep(0.53)
 typeffect(salyr(61),0.08)
-time.sleep(1.27)
+time.sleep(1.05)
 sweep()
 typeffect(salyr(62),0.08)
 time.sleep(1)
