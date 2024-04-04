@@ -18,9 +18,6 @@ This Python project aims to recreate the iconic final song "Still Alive" from th
 2. Install the required libraries using pip:
     ```
     pip install pygame
-    pip install time
-    pip install sys
-    pip install os
     pip install subprocess
     pip install numpy
     ```
