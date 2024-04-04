@@ -1,19 +1,18 @@
-#Welcome, mangiatori di cazzi, to this thing I made out of pure boredom.
-#Microwavedd :))
+#Welcome to this thing I made out of pure boredom.
 
 #This right here are the modules used, the first three are custom and can be found on the same folder as this file.
 from typewriter import typeffect
-from song import salyr  #Salir means "to get out" in spanish, making reference to you escape in portal, hehehehehehe
+from song import salyr  #Salir means "to get out" in spanish, making reference to how you escape in portal, hehehehehehe
 from broom import sweep  
 import time
 
-#What this does is disable the obnoxious message of "Hello from the Pygame co-" HALT DEIN MUND, DU KLEINER HAUFEN PFERDESCHEISSE
+#What this does is disable the obnoxious message from pygame
 from os import environ
 environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 
 from pygame import mixer 
 # it is important to import pygame after that
-#By the way, pygame is the way of making the music work
+#By the way, pygame is the way of making the music work, It is not optional
 
 
 #The music engine
@@ -162,4 +161,4 @@ time.sleep(1)
 sweep()
 
 
-#Microwavedd (fuckin cool ass name tbh like imagine someone that has been on a microwave like damn thats nice)
+#Microwavedd (fuckin cool ass name)
