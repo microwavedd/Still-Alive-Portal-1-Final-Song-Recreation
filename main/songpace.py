@@ -17,7 +17,7 @@ from pygame import mixer
 
 #The music engine
 mixer.init()
-mixer.music.load('StillAlive.mp3')
+mixer.music.load('./StillAlive.mp3')
 sweep()
 #The core of the project: The lyrics
 typeffect("Forms FORM-29827281-12:\n",0.09)
